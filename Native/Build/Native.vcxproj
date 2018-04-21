@@ -153,9 +153,6 @@
     <IntDir>$(SolutionDir)\..\bin\.builds\$(PlatformTarget)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup>
-    <Lib>
-      <TargetMachine>MachineX86</TargetMachine>
-    </Lib>
     <ClCompile>
       <AdditionalIncludeDirectories>..\..\Inc;..\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
